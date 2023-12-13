@@ -133,3 +133,20 @@ footer {
 main {
     margin-top: 79px;
 }
+
+/* media query: laptops and larger (992px+) */
+@media screen and (min-width: 992px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+
+}
