@@ -63,10 +63,11 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(241, 109, 107, 7);
+    background-color: rgba(241, 109, 107, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    top: 50px;
+    left: 12%;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -178,7 +179,7 @@ main {
 /* Hero */
 #cover-text {
     width: 300px;
-    right: 300px;
+    right: 50px;
 }
 
 /* media query: laptops and larger (992px+) */
